@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO Meta tags -->
+    <title>
+      Innovative Solutions | Digital Transformation & Technology Services
+    </title>
+    <meta
+      name="description"
+      content="Leading provider of digital transformation, software development, and innovative tech solutions. Transform your business with our expert services."
+    />
+    <meta
+      name="keywords"
+      content="digital transformation, software development, technology solutions, innovation"
+    />
+    <meta name="author" content="Innovative Solutions" />
+
+    <!-- Open Graph tags -->
+    <meta
+      property="og:title"
+      content="Innovative Solutions - Transform Your Digital Future"
+    />
+    <meta
+      property="og:description"
+      content="Expert digital transformation and technology solutions for modern businesses"
+    />
+    <meta property="og:image" content="images/og-image.jpg" />
+    <meta property="og:url" content="https://innovativesolutions.com" />
+
+    <!-- Resource links -->
+    <link rel="canonical" href="https://innovativesolutions.com" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="preload"
+      href="fonts/main-font.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+  </head>
+  <body>
+    <!-- Main Header -->
+    <header>
+      <nav aria-label="Main navigation">
+        <a href="/" aria-label="Home">
+          <img
+            src="assets/img/company-logo.svg"
+            alt="Innovative Solutions Logo"
+            width="150"
+            height="50"
+          />
+        </a>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+        <h1>Transform Your Digital Future</h1>
+        <p>Innovative solutions for the modern digital landscape</p>
+        <button class="cta-button" onclick="handleCTA()">
+          Start Your Journey
+        </button>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <h2>Your Partner in Digital Innovation</h2>
+        <div class="content-wrapper">
+          <article>
+            <h3>Our Story</h3>
+            <p>
+              At Innovative Solutions, we've been at the forefront of digital
+              transformation since 2015. With a team of expert developers,
+              designers, and strategists, we turn complex challenges into
+              elegant solutions. Our commitment to innovation and excellence has
+              helped over 500 businesses achieve their digital potential.
+            </p>
+          </article>
+
+          <article>
+            <h3>Core Values</h3>
+            <ul class="values-list">
+              <li>
+                <strong>Innovation First:</strong> We stay ahead of
+                technological trends
+              </li>
+              <li>
+                <strong>Client Success:</strong> Your growth is our priority
+              </li>
+              <li>
+                <strong>Quality Driven:</strong> Excellence in every line of
+                code
+              </li>
+              <li>
+                <strong>Sustainable Solutions:</strong> Building for today and
+                tomorrow
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Digital Transformation</h3>
+            <p>
+              Comprehensive digital solutions to modernize your business
+              operations and enhance customer experience.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Custom Software</h3>
+            <p>
+              Tailored software solutions designed to meet your unique business
+              requirements and drive growth.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Cloud Solutions</h3>
+            <p>
+              Scalable cloud services to optimize your infrastructure and
+              improve business agility.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Why Choose Us Section -->
+      <section id="why-choose-us" class="why-choose-us">
+        <h2>Why Choose Innovative Solutions?</h2>
+        <div class="achievements-grid">
+          <div class="achievement-item">
+            <h4>8+ Years of Excellence</h4>
+          </div>
+          <div class="achievement-item">
+            <h4>500+ Successful Projects</h4>
+          </div>
+          <div class="achievement-item">
+            <h4>98% Client Satisfaction</h4>
+          </div>
+          <div class="achievement-item">
+            <h4>24/7 Technical Support</h4>
+          </div>
+          <div class="achievement-item">
+            <h4>Industry-Leading Expertise</h4>
+          </div>
+          <div class="achievement-item">
+            <h4>Agile Development Methodology</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <h2>Start Your Innovation Journey</h2>
+        <p class="contact-intro">
+          Ready to take your business to the next level? Our team of experts is
+          here to help you navigate the digital landscape and achieve your
+          goals.
+        </p>
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-info">
+          <h4>About Innovative Solutions</h4>
+          <p>
+            We are a leading technology solutions provider, dedicated to
+            delivering innovative and scalable digital solutions that help
+            businesses thrive in the modern digital landscape.
+          </p>
+          <h4>Contact Information</h4>
+          <address>
+            <p>Email: gomes.programing@gmail.com</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Locations:</p>
+            <ul class="office-locations">
+              <li>Headquarters: New York, NY</li>
+              <li>Development Center: San Francisco, CA</li>
+              <li>Innovation Hub: Austin, TX</li>
+            </ul>
+          </address>
+        </div>
+        <nav aria-label="Footer links">
+          <ul>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms-of-use">Terms of Use</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="copyright">
+        &copy; 2024 Innovative Solutions. All rights reserved.
+      </p>
+    </footer>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Innovative Solutions",
+        "url": "https://www.innovativesolutions.com",
+        "logo": "https://www.innovativesolutions.com/logo.webp",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-555-123-4567",
+          "contactType": "customer service"
+        }
+      }
+    </script>
+
+    <!-- Main Script -->
+    <script src="script.js" defer></script>
+  </body>
+</html>
